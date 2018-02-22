@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>New York Times Search</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./assets/style.css">
+
+</head>
+
+<body>
+    <div class="container">
+        <div class="jumbotron jumbo-styler">
+            <h1>The
+                <strong>New York Times</strong> Backdoor</h1>
+            <p>The fast and easy way to find what you want...</p>
+        </div>
+        <div class="row section-styler">
+            <div class="col-md-12 section-headers">
+                <h4>Search Parameters</h4>
+            </div>
+        </div>
+        <div class="row section-styler">
+
+            <div class="col-md-12 section-area">
+                <div class="row">
+                    <div class="col-md-12">
+                        <p>Search Term:</p>
+                        <input type="text" name="searchTerm" id="searchTerm">
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-12">
+                        <p>Number of Articles to Retieve:</p>
+                        <div class="dropdown">
+                            <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true"
+                                aria-expanded="true">
+                                Dropdown
+                                <span class="caret"></span>
+                            </button>
+                            <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
+                                <li>
+                                    <a href="#">1</a>
+                                </li>
+                                <li>
+                                    <a href="#">5</a>
+                                </li>
+                                <li>
+                                    <a href="#">10</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-12">
+                        <p>Start Year (Optional):</p>
+                        <input type="text" placeholder="yyyymmdd" name="startYear" id="startYear">
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-12">
+                        <p>END Year (Optional):</p>
+                        <input type="text" placeholder="yyyymmdd"name="endYear" id="endDate">
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-4">
+                        <div class="input-group">
+                            <input type="submit" class="form-control" aria-describedby="basic-addon1" id="submitButton">
+                        </div>
+                    </div>
+                </div>
+               
+
+            </div>
+            <div class="row section-styler">
+                <div class="col-md-12 section-headers">
+                    <h4>Top Articles</h4>
+                </div>
+            </div>
+        </div>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+        <script src="./assets/logic.js"></script>
+</body>
+
+</html>
