@@ -1,8 +1,10 @@
 $(document).ready(function () {
     
     // Group NYT API Key: a94e5a9da3d2416d8a09a8e37b7ea40a
-
-    var queryURL = "https://api.nytimes.com/svc/search/v2/articlesearch.json?q=";
+    
+    //Below is the group work that was completed prior to revisions
+    // ---------------------------------------
+/*    var queryURL = "https://api.nytimes.com/svc/search/v2/articlesearch.json?q=";
     queryURL + searchTerm + '&begin_date=' + beginDate + '&end_date=' + endDate + '&api-key=a94e5a9da3d2416d8a09a8e37b7ea40a'
     
 $("#submitButton").on("click", function() {
@@ -18,12 +20,11 @@ $("#submitButton").on("click", function() {
     })
     .then(function(response){
         var results = response.data;
-
     })
-
-
-
 });
+*/
+//end group work
+//--------------------------------------------------------
 
 
 
