@@ -7,7 +7,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>New York Times Search</title>
     <!-- Bootstrap CSS link -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./assets/bootstrap-3.3.7-dist/css/bootstrap.css">
     <!-- CSS File link -->
     <link rel="stylesheet" href="./assets/style.css">
 
@@ -19,7 +19,7 @@
         <div class="jumbotron jumbo-styler">
             <h1>The
                 <strong>New York Times</strong> Backdoor</h1>
-            <p>The fast and easy way to find what you want...</p>
+            <p>The fast and easy way to find the articles you want...</p>
         </div>
 
         <div class="row">
@@ -45,13 +45,13 @@
                             </div>
                             <div class="form-group">
                                 <label for="startYear">Start Year (Optional):</label>
-                                <input type="text" class="form-control" id="startYearInput" placeholder="Please use yyyymdd Format">
+                                <input type="text" class="form-control" id="startYearInput" placeholder="">
                             </div>
                             <div class="form-group">
                                 <label for="endYear">End Year (Optional):</label>
-                                <input type="text" class="form-control" id="endYearInput" placeholder="Please use yyyymdd Format">
+                                <input type="text" class="form-control" id="endYearInput" placeholder="">
                             </div>
-                            <button type="submit" class="btn btn-default">Search</button>
+                            <button type="submit" class="btn btn-default" id="searchButton">Search</button>
                             <button type="button" class="btn btn-default">Clear Results</button>
                         </form>
                     </div>
@@ -65,8 +65,8 @@
                     <div class="panel-heading section-headers">
                         <h3 class="panel-title">Search Results</h4>
                     </div>
-                    <div class="panel-body">
-                        Placeholder Text
+                    <div class="panel-body" id="wellSection">
+                        
                     </div>
                 </div>
             </div>
@@ -75,9 +75,9 @@
         </div> 
 
         <!-- jQuery Link -->
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
         <!-- Bootstrap JavaScript link -->
-        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+        <script src="./assets/jquery-3.3.1.min.js"></script>
+        <script src="./assets/bootstrap-3.3.7-dist/js/bootstrap.min.js"></script>
         <!-- Project JavaScript link -->
         <script src="./assets/logic.js"></script>
 </body>

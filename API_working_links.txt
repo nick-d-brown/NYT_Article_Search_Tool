@@ -1,0 +1,17 @@
+===Example URLs and what the return===
+--after looking over the NYT API documentation and console these URL combinations will return these results
+
+group API Key ---> a94e5a9da3d2416d8a09a8e37b7ea40a
+
+
+--Result 1--
+>Outputs a JSON value with a default of 10 articles relating to the query "q='olympics'" about the olympics
+
+https://api.nytimes.com/svc/search/v2/articlesearch.json?q="olympics"&api-key=a94e5a9da3d2416d8a09a8e37b7ea40a
+
+--Result 2--
+
+>Outputs a JSON value with a default of 10 articles relating to the query "q='olympics'" about the olympics, AND uses the start day 20121002 (yyyymmdd)
+and an end date of 20161211. 
+
+https://api.nytimes.com/svc/search/v2/articlesearch.json?q=olympics&begin_date=20121002&end_date=20161211&api-key=a94e5a9da3d2416d8a09a8e37b7ea40a

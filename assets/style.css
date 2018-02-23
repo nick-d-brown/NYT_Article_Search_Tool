@@ -21,3 +21,7 @@ body {
 .section-headers {
     background-color: rgb(175, 175, 175)
 }
+
+.well {
+    color: black;
+}
